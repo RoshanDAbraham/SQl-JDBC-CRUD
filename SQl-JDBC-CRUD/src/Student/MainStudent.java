@@ -15,11 +15,11 @@ public class MainStudent {
 			System.out.println("1:CREATE(ADD)\n2:READ(SEARCH)\n3:UPDATE(ALTER)\n4:DELETE(REMOVE)\n5:DISPLAY\n6.EXIT");
 			System.out.println();
 
-			System.out.println("Enter your choice");
+			System.out.println("ENTER YOUR CHOICE");
 			int choice = sc.nextInt();
 			System.out.println();
-			while (true) {
-				switch (choice) {
+				switch (choice) 
+				{
 				case 1:
 					new AddStudent().insert();
 					break;
@@ -47,5 +47,3 @@ public class MainStudent {
 		}
 
 	}
-
-}

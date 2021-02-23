@@ -39,7 +39,10 @@ public class DisplayStudent {
 			System.out.println();
 			System.out.println();
 		}
-       con.close();
+		r.close();
+		stat.close();
+		con.close();
+
 	}
 
 }
